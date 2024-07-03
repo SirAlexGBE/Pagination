@@ -1,0 +1,39 @@
+body{
+    background-color: aqua;
+    margin: 0 90px ;
+}
+h1{
+    text-align: center;
+    background-color: navy;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+}
+p{
+    font-size: medium;
+}
+.pagination{
+  text-align: center;
+}
+.pagination a{
+    color: black;
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 15px ;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bolder;
+}
+.pagination a.active{
+    border:1px solid black ;
+    height: 10px;
+    background-color: brown;
+    border-radius: 5px;
+    color: white;
+}
+.pagination a:not(.active):hover{
+    border:1px solid black ;
+    height: 10px;
+    background-color: rgb(133, 85, 255);
+    border-radius: 5px;
+}
